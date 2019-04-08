@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.prateleira {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 200px;
+}
+
+.slide > p {
+  padding: 0px 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .prateleira {
+    height: auto;
+  }
+
+  .slide > p {
+    padding: 0px 16px;
+  }
+
+}
