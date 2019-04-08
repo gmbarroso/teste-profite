@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.header {
+  display: flex;
+  padding: 16px 200px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+}
+
+.header > img {
+  width: 100px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.subMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myAccountDiv {
+  display: flex;
+  align-items: center;
+}
+
+.myAccountDiv:hover {
+  cursor: pointer;
+}
+
+.myAccountUser {
+  width: 18px;
+  padding: 5px;
+}
+
+.myAccountText {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: normal;
+  color: #7A7A7A;
+}
+
+.miniCart {
+  width: 37px;
+  border-right: 1px solid #7A7A7A;
+  margin-right: 10px;
+}
+
+.miniCartIcon {
+  width: 18px;
+}
+
+.miniCartIcon:hover {
+  cursor: pointer;
+}
+
+.flags {
+  display: flex;
+  align-items: center;
+}
+
+.brFlag, .esFlag, .gbFlag {
+  width: 18px;
+  margin-right: 20px;
+}
+
+.brFlag:hover, .esFlag:hover, .gbFlag:hover {
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    padding: 16px 16px;
+  }
+
+  .logo, .searchDiv {
+    padding: 2px 0px;
+  }
+
+  .searchDiv {
+    width: 100%;
+  }
+
+  .myAccountDiv, .miniCart, .flags {
+    display: none;
+  }
+}
