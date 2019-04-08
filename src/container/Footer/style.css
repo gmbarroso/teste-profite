@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #011627;
+  color: white;
+  padding: 16px 200px;
+  justify-content: space-between;
+}
+
+.localDiv {
+  font-size: 14px;
+}
+
+.localDiv > p {
+  margin-left: 24px;
+}
+
+.location {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.sp, .rj {
+  margin-left: 24px;
+}
+
+.sp > p {
+  margin-bottom: -3px;
+}
+
+.rj > p {
+  margin-bottom: -3px;
+}
+
+.buttons {
+  margin: 16px 0px;
+}
+
+.creation {
+  display: flex;
+}
+
+.creation > div {
+  margin: 20px;
+  font-size: 8px;
+  justify-content: flex-end;
+}
+
+.image {
+  width: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    padding: 16px 16px;
+  }
+}
